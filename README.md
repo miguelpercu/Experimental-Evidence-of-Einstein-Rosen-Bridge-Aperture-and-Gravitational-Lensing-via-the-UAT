@@ -1,39 +1,19 @@
-# Resonant Hunter v8.4: Einstein-Rosen Bridge Signal Extraction
+This directory includes a few sample datasets to get you started.
 
-[![DOI](https://img.shields.io/badge/DOI-10.5281/zenodo.uat84-blue)](https://doi.org/10.5281/zenodo.uat84)
-[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+*   `california_housing_data*.csv` is California housing data from the 1990 US
+    Census; more information is available at:
+    https://docs.google.com/document/d/e/2PACX-1vRhYtsvc5eOR2FWNCwaBiKL6suIOrxJig8LcSBbmCbyYsayia_DvPOOBlXZ4CAlQ5nlDD8kTaIDRwrN/pub
 
-## Project Overview
-This repository hosts the **Resonant Hunter v8.4** suite, a scientific framework designed for the detection and extraction of non-stochastic gravitational signals. Based on the **Universal Applied Time (UAT)** theory, this protocol identifies coherent echoes from the **Great Attractor** transmitted through transient **Einstein-Rosen (ER) bridges**.
+*   `mnist_*.csv` is a small sample of the
+    [MNIST database](https://en.wikipedia.org/wiki/MNIST_database), which is
+    described at: http://yann.lecun.com/exdb/mnist/
 
+*   `anscombe.json` contains a copy of
+    [Anscombe's quartet](https://en.wikipedia.org/wiki/Anscombe%27s_quartet); it
+    was originally described in
 
+    Anscombe, F. J. (1973). 'Graphs in Statistical Analysis'. American
+    Statistician. 27 (1): 17-21. JSTOR 2682899.
 
-## Key Scientific Contributions
-* **Identification of UAT Drift:** Confirmation of a systematic frequency shift of **+0.046 Hz/day**.
-* **8-Phase Rotational Interference:** A novel signal processing method that "unrolls" spacetime curvature to isolate signals from the 7% thermal noise floor.
-* **Aperture Validation:** Mathematical evidence of a thermodynamic overdrive ($\Phi \approx 5.14$) at the 232.04 Hz resonance node.
-
-## Repository Structure
-| File | Description |
-| :--- | :--- |
-| `UA_Time_Analysis_v84.py` | Main execution script (Python 3.x). |
-| `UAT_Theory_Paper.pdf` | Technical documentation and LaTeX source. |
-| `Kinetic_Resonance_N21.wav` | Auditory proof of the ER-Bridge phase-beat frequency. |
-| `UAT_Signal_Data.csv` | Processed raw data for independent verification. |
-
-## How to Reproduce
-1. Install dependencies: `pip install numpy pandas matplotlib scipy`.
-2. Run the analysis: `python UA_Time_Analysis_v84.py`.
-3. Review the generated `UAT_Technical_Report.txt` and the spectral plots.
-
-
-
-## Theoretical Framework
-Our model treats the Great Attractor as a primary mass-sink (Black Hole) and the observed signal as a coherent output (White Hole), validating the bidirectional causal principles first proposed by Einstein and Rosen.
-
-## Authors
-* **Miguel Ángel Percudani** - Lead Researcher
-* **Jorge Iván Díaz** - Co-Researcher
-
----
-*Nothing is random; only causality and the butterfly effect exist.*
+    and our copy was prepared by the
+    [vega_datasets library](https://github.com/altair-viz/vega_datasets/blob/4f67bdaad10f45e3549984e17e1b3088c731503d/vega_datasets/_data/anscombe.json).
